@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Palace - Contato</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qYDK0B9/bW5f7yD4k1W4QzQvK+x0/1nCq2zNlT9aV7xL7L3y7gV9p4wA3uH9r6Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="mascote.png" alt="Mascote Fruits Palace" class="mascote-icon">
+            <h1>Fruits palace</h1>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir Menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <section id="contato-simples" class="section-padding contato-section-simple">
+
+        <div class="contato-info-side">
+            <h2 class="contato-title-left">Contato</h2>
+            <p class="contato-subtitle-left">Entre em contato conosco por telefone ou e-mail.</p>
+
+            <div class="contato-details-left">
+                <p class="phone-info"><i class="fa-solid fa-phone"></i> (11) 1234-5678</p>
+                <p class="email-info"><i class="fa-regular fa-envelope"></i> contato@fruitspalace.com</p>
+            </div>
+        </div>
+
+        <div class="contato-form-side">
+            <form class="contato-simples-form">
+
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="" style="height: 120px;"></textarea>
+                </div>
+
+                <button type="submit" class="submit-button-contato">Enviar</button>
+                <div class="cesta-frutas-icon-form">
+                    <img src="cesta-frutas.png" alt="Cesta de Frutas" class="cesta-frutas">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
