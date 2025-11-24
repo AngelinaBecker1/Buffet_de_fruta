@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Palace - Área de Atendimento e Orçamento</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qYDK0B9/bW5f7yD4k1W4QzQvK+x0/1nCq2zNlT9aV7xL7L3y7gV9p4wA3uH9r6Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="mascote.png" alt="Mascote Fruits Palace" class="mascote-icon">
+            <h1>Fruits palace</h1>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir Menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <section id="orcamento" class="section-padding contato-section">
+        <div class="contato-left">
+            <h2 class="contato-title">Área de atendimento</h2>
+            <p>Aqui nós te atendemos com eficiência!</p>
+            <div class="contato-image">
+                <img src="contato-buffet-center.jpg" alt="Exemplo de Buffet central">
+            </div>
+            <div class="contato-info">
+                <p class="whatsapp-info"><i class="fa-brands fa-whatsapp"></i> (11) 1234-5678</p>
+                <p class="email-info"><i class="fa-regular fa-envelope"></i> contato@fruitspalace.com</p>
+            </div>
+        </div>
+
+        <div class="contato-form-container">
+            <form class="orcamento-form">
+                <h2 class="form-title" style="display: block; text-align: left; margin-bottom: 20px;">Entre em contato!
+                </h2>
+
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="evento">Evento</label>
+                    <input type="text" id="evento" name="evento" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="data">Data</label>
+                    <input type="date" id="data" name="data" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="convidados">Convidados</label>
+                    <input type="number" id="convidados" name="convidados" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="observacoes">Observações</label>
+                    <textarea id="observacoes" name="observacoes" placeholder=""></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Enviar orçamento</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
