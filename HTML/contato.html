@@ -15,11 +15,26 @@
 
     <header class="header">
         <div class="logo">
-            <img src="mascote.png" alt="Mascote Fruits Palace" class="mascote-icon">
+            <img src="../IMG/vaquinha_morango-removebg-preview.png" alt="Mascote Fruits Palace" class="mascote-icon">
             <h1>Fruits palace</h1>
         </div>
-        <button class="menu-toggle" aria-label="Abrir Menu">
-            <i class="fa-solid fa-bars"></i>
+        <nav class="menu" id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="inicio.html">Início</a>
+            <a href="estilos_de_buffet.html">Estilos De Buffet</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="orcamento.html">Área De Atendimento</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+
+        <button class="menu-btn" onclick="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </button>
     </header>
 
@@ -52,12 +67,10 @@
                 </div>
 
                 <button type="submit" class="submit-button-contato">Enviar</button>
-                <div class="cesta-frutas-icon-form">
-                    <img src="cesta-frutas.png" alt="Cesta de Frutas" class="cesta-frutas">
-                </div>
             </form>
         </div>
     </section>
 </body>
+<script src="../JS/script.js"></script>
 
 </html>
