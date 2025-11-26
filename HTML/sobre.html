@@ -1,36 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruits Palace - Sobre Nós</title>
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qYDK0B9/bW5f7yD4k1W4QzQvK+x0/1nCq2zNlT9aV7xL7L3y7gV9p4wA3uH9r6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qYDK0B9/bW5f7yD4k1W4QzQvK+x0/1nCq2zNlT9aV7xL7L3y7gV9p4wA3uH9r6Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 
     <header class="header">
         <div class="logo">
-            <img src="mascote.png" alt="Mascote Fruits Palace" class="mascote-icon">
+            <img src="../IMG/vaquinha_morango-removebg-preview.png" alt="Mascote Fruits Palace" class="mascote-icon">
             <h1>Fruits palace</h1>
         </div>
-        <button class="menu-toggle" aria-label="Abrir Menu">
-            <i class="fa-solid fa-bars"></i>
+        <nav class="menu" id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="inicio.html">Início</a>
+            <a href="estilos_de_buffet.html">Estilos De Buffet</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="orcamento.html">Área De Atendimento</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+
+        <button class="menu-btn" onclick="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </button>
     </header>
-    
+
     <section id="sobre-nos" class="section-padding sobre-nos-section">
         <h2>Sobre nós</h2>
         <div class="sobre-nos-content">
-            <img src="mascote-morango.png" alt="Mascote vaca com morango" class="mascote-sobre-nos">
+            <img src="../IMG/vaquinha_morango-removebg-preview.png" alt="Mascote vaca com morango"
+                class="mascote-sobre-nos">
             <div class="about-text-box">
-                <p>Somos apaixonados por transformar momentos especiais em experiências saborosas, leves e inesquecíveis.</p>
-                <p>Nosso buffet de frutas nasceu com a proposta de unir beleza, frescor e qualidade, oferecendo mesas decoradas, combinações criativas e frutas selecionadas com muito carinho.</p>
-                <p>Acreditamos que a natureza é capaz de deixar qualquer ocasião mais colorida, saudável e encantadora – e é por isso que cuidamos de cada detalhe: desde a seleção das frutas até a montagem final do seu evento.</p>
-                <p>Trabalhamos com aniversários, casamentos, eventos corporativos, festas temáticas e celebrações em geral, sempre buscando entregar um serviço delicado, organizado e feito com amor.</p>
-                <p>Mais do que montar mesas bonitas, queremos proporcionar experiências, criar lembranças e levar o sabor do frescor para cada pessoa que passa por nós.</p>
+                <p>Somos apaixonados por transformar momentos especiais em experiências saborosas, leves e
+                    inesquecíveis.</p>
+                <p>Nosso buffet de frutas nasceu com a proposta de unir beleza, frescor e qualidade, oferecendo mesas
+                    decoradas, combinações criativas e frutas selecionadas com muito carinho.</p>
+                <p>Acreditamos que a natureza é capaz de deixar qualquer ocasião mais colorida, saudável e encantadora –
+                    e é por isso que cuidamos de cada detalhe: desde a seleção das frutas até a montagem final do seu
+                    evento.</p>
+                <p>Trabalhamos com aniversários, casamentos, eventos corporativos, festas temáticas e celebrações em
+                    geral, sempre buscando entregar um serviço delicado, organizado e feito com amor.</p>
+                <p>Mais do que montar mesas bonitas, queremos proporcionar experiências, criar lembranças e levar o
+                    sabor do frescor para cada pessoa que passa por nós.</p>
             </div>
         </div>
     </section>
 </body>
+<script src="../JS/script.js"></script>
+
 </html>
