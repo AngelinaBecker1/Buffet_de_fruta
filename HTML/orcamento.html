@@ -15,11 +15,26 @@
 
     <header class="header">
         <div class="logo">
-            <img src="mascote.png" alt="Mascote Fruits Palace" class="mascote-icon">
+            <img src="../IMG/vaquinha_morango-removebg-preview.png" alt="Mascote Fruits Palace" class="mascote-icon">
             <h1>Fruits palace</h1>
         </div>
-        <button class="menu-toggle" aria-label="Abrir Menu">
-            <i class="fa-solid fa-bars"></i>
+        <nav class="menu" id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="inicio.html">Início</a>
+            <a href="estilos_de_buffet.html">Estilos De Buffet</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="orcamento.html">Área De Atendimento</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+
+        <button class="menu-btn" onclick="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </button>
     </header>
 
@@ -28,7 +43,7 @@
             <h2 class="contato-title">Área de atendimento</h2>
             <p>Aqui nós te atendemos com eficiência!</p>
             <div class="contato-image">
-                <img src="contato-buffet-center.jpg" alt="Exemplo de Buffet central">
+                <img src="../IMG/Fruit Display  Catering by The Perfect Pear Catering, LLC.jpg" alt="Exemplo de Buffet central">
             </div>
             <div class="contato-info">
                 <p class="whatsapp-info"><i class="fa-brands fa-whatsapp"></i> (11) 1234-5678</p>
@@ -67,5 +82,6 @@
         </div>
     </section>
 </body>
+<script src="../JS/script.js"></script>
 
 </html>
