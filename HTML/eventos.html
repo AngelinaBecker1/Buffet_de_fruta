@@ -15,11 +15,26 @@
 
     <header class="header">
         <div class="logo">
-            <img src="mascote.png" alt="Mascote Fruits Palace" class="mascote-icon">
+            <img src="../IMG/vaquinha_morango-removebg-preview.png" alt="Mascote Fruits Palace" class="mascote-icon">
             <h1>Fruits palace</h1>
         </div>
-        <button class="menu-toggle" aria-label="Abrir Menu">
-            <i class="fa-solid fa-bars"></i>
+        <nav class="menu" id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="inicio.html">Início</a>
+            <a href="estilos_de_buffet.html">Estilos De Buffet</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="orcamento.html">Área De Atendimento</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+
+        <button class="menu-btn" onclick="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </button>
     </header>
 
@@ -28,7 +43,7 @@
         <div class="eventos-grid">
             <div class="evento-card">
                 <div class="evento-image">
-                    <img src="evento-aniversarios.jpg" alt="Mesa de frutas em um aniversário">
+                    <img src="../IMG/transferir (4).jpg" alt="Mesa de frutas em um aniversário">
                 </div>
                 <div class="evento-details">
                     <h3>Aniversários</h3>
@@ -38,7 +53,8 @@
             </div>
             <div class="evento-card">
                 <div class="evento-image">
-                    <img src="evento-casamentos.jpg" alt="Mesa de frutas em um casamento">
+                    <img src="../IMG/Mesa de Frutas_ Saiba Como Montar +60 Inspirações _ Buffet de frutas, Mesas de frutas, Barras de frutas.jpg"
+                        alt="Mesa de frutas em um casamento">
                 </div>
                 <div class="evento-details">
                     <h3>Casamentos</h3>
@@ -47,7 +63,7 @@
             </div>
             <div class="evento-card">
                 <div class="evento-image">
-                    <img src="evento-cha-revelacao.jpg" alt="Cesto de frutas para chá revelação">
+                    <img src="../IMG/transferir (3).jpg" alt="Cesto de frutas para chá revelação">
                 </div>
                 <div class="evento-details">
                     <h3>Chá revelação</h3>
@@ -57,7 +73,7 @@
             </div>
             <div class="evento-card">
                 <div class="evento-image">
-                    <img src="evento-festas-tematicas.jpg" alt="Escultura de frutas temáticas">
+                    <img src="../IMG/transferir (1).jpg" alt="Escultura de frutas temáticas">
                 </div>
                 <div class="evento-details">
                     <h3>Festas temáticas</h3>
@@ -67,5 +83,6 @@
         </div>
     </section>
 </body>
+<script src="../JS/script.js"></script>
 
 </html>
