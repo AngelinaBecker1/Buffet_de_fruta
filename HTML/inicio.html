@@ -15,11 +15,26 @@
 
     <header class="header">
         <div class="logo">
-            <img src="mascote.png" alt="Mascote Fruits Palace" class="mascote-icon">
+            <img src="../IMG/vaquinha_morango-removebg-preview.png" alt="Mascote Fruits Palace" class="mascote-icon">
             <h1>Fruits palace</h1>
         </div>
-        <button class="menu-toggle" aria-label="Abrir Menu">
-            <i class="fa-solid fa-bars"></i>
+        <nav class="menu" id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="inicio.html">Início</a>
+            <a href="estilos_de_buffet.html">Estilos De Buffet</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="orcamento.html">Área De Atendimento</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+
+        <button class="menu-btn" onclick="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </button>
     </header>
 
@@ -32,24 +47,26 @@
             <h2>Destaques</h2>
             <div class="destaques-grid">
                 <div class="destaque-item">
-                    <img src="buffet-tradicional.jpg" alt="Buffet de fruta tradicional">
+                    <img src="../IMG/frutas.jpg" alt="Buffet de fruta tradicional">
                     <p>Buffet de fruta tradicional</p>
                 </div>
                 <div class="destaque-item">
-                    <img src="buffet-casamento.jpg" alt="Especial de casamento">
+                    <img src="../IMG/Mesa de Frutas_ Saiba Como Montar +60 Inspirações _ Buffet de frutas, Mesas de frutas, Barras de frutas.jpg"
+                        alt="Especial de casamento">
                     <p>Especial de casamento</p>
                 </div>
                 <div class="destaque-item">
-                    <img src="buffet-tematico.jpg" alt="Buffet temático">
+                    <img src="../IMG/transferir (1).jpg" alt="Buffet temático">
                     <p>Buffet tematico</p>
                 </div>
                 <div class="destaque-item">
-                    <img src="buffet-cha-bebe.jpg" alt="Especial Chá de bebê">
+                    <img src="../IMG/transferir (3).jpg" alt="Especial Chá de bebê">
                     <p>Especial Chá de bebê</p>
                 </div>
             </div>
         </div>
     </section>
 </body>
+<script src="../JS/script.js"></script>
 
 </html>
